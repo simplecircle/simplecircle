@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+.clearfix:after {
+    content:" ";
+    display:table;
+    clear:both;
+}
+
+#wrapper{
+  background-color: #eee;
+  margin: 0 auto;
+  width: 1040px;
+}
+header{
+    background-color: #ddd;
+    padding: 30px 10px;
+    width: 100%;
+}
+main{
+    background-color: #ccc;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 60%;
+}
+aside{
+    float: left;
+    background-color: lime;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 40%;
+}
+#brand{
+    float: left;
+}
+#logo{
+    float: left;
+}
+#avatar{
+    float: right;
+}

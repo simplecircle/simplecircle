@@ -27,6 +27,18 @@
         <a href="http://www.cssfontstack.com" >web safe fonts</a>
         <br />
         <a href="https://fonts.google.com">Google fonts</a>
+        
+        <h2>CSS Box-sizing and clearfix</h2>
+        Add to top of your css doc<pre>
+          *{
+            box-sizing: border-box;
+          }
+          .clearfix:after {
+            content:" ";
+            display:table;
+            clear:both;
+          }
+        </pre>
     </body>
     
 </html>
