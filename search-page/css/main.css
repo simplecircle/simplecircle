@@ -1,0 +1,9 @@
+input[type="submit"]{
+    background: url(https://s3.amazonaws.com/pratt-web-2/google_mag_glass.png) no-repeat 12px;
+    background-color: #4285f4;
+    background-size: 18px;
+    border: none;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
